@@ -29,3 +29,14 @@ def guess_number_one():
             print("Wrong number, try again")
             print(f"Remaining points: {points}")
             print(f"Remaining opportunities: {opportunities}")
+
+# Show endpoints if player didn't guess
+    if opportunities == 0:
+        print("Chances are over, you lost!")
+
+    # Display the points earned when the player wins
+    print(f"Points earned: {points}")
+
+
+guess_number_one()
+
